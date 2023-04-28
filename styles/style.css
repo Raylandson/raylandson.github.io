@@ -15,11 +15,13 @@ html{
 }
 
 #mybutton {
-	background-color: red;
-	color: white;
+	background-color: lightblue;
+	color: blueviolet;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+	border-radius: 5px;
+	font-size: 18px;	
 }
 
 
