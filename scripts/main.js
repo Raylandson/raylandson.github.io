@@ -25,12 +25,6 @@ function setLoveName() {
 	};
 };
 
-if (!localStorage.getItem("name")) {
-	setLoveName();
-} else {
-	const storedName = localStorage.getItem("name");
-};
-
 myButton.onclick = () => {
 	setLoveName();
 };
