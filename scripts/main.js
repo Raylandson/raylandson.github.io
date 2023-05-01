@@ -1,16 +1,16 @@
 let myImage = document.querySelector('img');
-let myButton = document.querySelector('button'); 
+//let myButton = document.querySelector('button'); 
 
 /*
 myImage.onclick = () => {
 	changeImage()
 };
 */
-
+/*
 myButton.onclick = () => {
 	setLoveName();
 };
-
+*/
 setInterval(changeImage, 1000)
 
 const images = ["images/mai-dragon-in-love.gif", "images/flustered-anime.gif", "images/anime-love.gif"];
@@ -30,16 +30,16 @@ function changeImage() {
 
 
 function setLoveName() {
-	const name = prompt("Você me ama?");
+	const name = prompt("Você tomou água hoje?");
 	localStorage.setItem("name", name);
 
-	if (['nao', 'não', 'no', 'not', 'n'].includes(name.toLowerCase())) {
-		alert('Opção inválida, digite novamente...');
-		setLoveName();
+	if (['nao', 'não', 'no', 'not', 'n', 'nope'].includes(name.toLowerCase())) {
+		alert('Tome vergonha na cara e vá tomar.');
+		//setLoveName();
 	} else if (['sim', 'si', 'yes', 's', 'y', 'yep'].includes(name.toLowerCase())) {
-		alert('Eu te amo também ❤💕😍😘');
+		alert('Muito bem, continue bebendo bastante água.');
 	} else {
-		alert('Opção inválida, digite novamente...')
+		alert('Entendi não, digite de novo...')
 		setLoveName();
 	};
 };
