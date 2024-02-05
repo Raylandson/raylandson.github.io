@@ -74,6 +74,8 @@ h1{
 
 img[src]{
 	color: black;
+	height: 300px;
+	width: auto;
 }
 
 a:hover{
