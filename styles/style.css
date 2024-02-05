@@ -56,7 +56,8 @@ p, li {
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 60px;
-	width: 30%;
+	height: 400px;
+	width: auto;
 }
 
 /*
