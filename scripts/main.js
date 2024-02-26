@@ -1,4 +1,4 @@
-let myImage = document.querySelector('img');
+//let myImage = document.querySelector('img');
 //let myButton = document.querySelector('button'); 
 
 /*
@@ -13,6 +13,7 @@ myButton.onclick = () => {
 
 setInterval(changeImage, 1000)
 */
+/*
 const images = ["images/mai-dragon-in-love.gif", "images/flustered-anime.gif", "images/anime-love.gif"];
 let actualImage = 0;
 let imagesLength = images.length -1;
@@ -44,3 +45,4 @@ function setLoveName() {
 	};
 };
 
+*/

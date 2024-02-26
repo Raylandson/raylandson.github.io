@@ -39,13 +39,14 @@ html{
 	border-bottom: 1px solid #6962AD;
 	background-color: white;
 	height: 100%;
-	width:22%;
+	width: 20%;
 	box-shadow: 5px 0 5px -6px #56575c;
 	display: flex;
 	flex-direction: column;
 	position: absolute;
 	left: 0;
 	top: 0;
+	right: 0;
 }
 
 #top-bar-side {
@@ -139,11 +140,10 @@ html{
 .content {
 	display: flex;
 	flex-direction: column;
-	width: 78.8%;
+	width: 80%;
 	position: relative;
-	left: 309px;
+	left: 19.5%;
 	top: -8px;
-	
 }
 
 .menu-top {
@@ -240,7 +240,7 @@ input[type="date"] {
 
 .div-items {
 	margin-bottom: 2%;
-	margin-left: 2%;
+	margin-left: 20px;
 	display: flex;
 }
 
