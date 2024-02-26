@@ -6,27 +6,166 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link rel="preconnect" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
 	<meta charset="utf-8">
 	<title>Best site 2012</title>
 </head>
 <body>
-	<div id="top-bar">
-		<h1 id="title">Imagens fofas de anime 2023</h1>
-		<button id= "mybutton" onclick="setLoveName()">Aperte Aqui</button>
-	</div>
+	<div class="container-do-container">
+		<div class="container" id="side-bar">
+			<div id="top-bar-side"> 
+				<img class="left" alt="" src="/images/logo-nobg.png" width="45px" height="42px" />
+				<span class="left" id="logo-title">ANIME HUB</span>
+			</div>
+	
+			<div class="user container-de-gente">
+				<img id="user-icon" src="./images/user-photo.png" />
+				<p id="user-contact">ayanokoji@email.com</p>
+			</div>
 
-	<div id="bottom">
-		<img src="images/mai-dragon-in-love.gif" alt="A pixel heart" class="center">
-		<p id="paragrafo">Top 3 curiosidades que ninguém sabe:</p>
-		<p>
-			<ul class="list-class">
-				<li>Você não consegue lamber seu próprio cotovelo;</li>
-				<li>Apenas 2% das pessoas tem cabelo loiro natural;</li>
-				<li>Rogerio ceni é o novo técnico da seleção brasileira;</li>
-			</ul>
-		</p>
+			<div class="buttons-container">
+				<div class="button">
+					<div class="button-itens">
+						<img src="/images/bar-chart.png" width="25" height="25"/>
+						<span>DASHBOARD</span>
+					</div>
+				</div>
+				<div class="button">
+					<div class="button-itens">
+						<img src="/images/money.png" width="25" height="25"/>
+						<span>VENDAS</span>
+					</div>
+				</div>
+				<div class="button">
+					<div class="button-itens">
+						<img src="/images/letter-p.png" width="25" height="25"/>
+						<span>PRODUTOS</span>
+					</div>
+				</div>
+				<div class="button">
+					<div class="button-itens">
+						<img src="/images/useruser.png" width="25" height="25"/>
+						<span>PRODUTOS</span>
+					</div>
+				</div>
+				<div class="button">
+					<div class="button-itens">
+						<img src="/images/logout.png" width="25" height="25"/>
+						<span>LOGOUT</span>
+					</div>
+				</div>
+			</div>
+		</div>
 
+		<div class="container content">
+			<div class="menu-top">
+				<div id="menu-top-icon">
+					<img src="images/menu.png"/>
+				</div>
+			</div>
+
+			<div id="dash-title">
+				DASHBOARD 
+			</div>
+
+			<div id="filters">
+				<div id="title-filters">
+					<span id="filter-title">Período</span>
+				</div>
+				
+				<div id="item-filters">
+					<div class="input-date">
+						<input type="date" id="input-date"/>
+					</div>
+
+					<div class="input-date">
+						<input type="date" id="input-date"/>
+					</div>
+
+					<div id="lupa">
+						<div id="lupa-icon">
+							<img src="images/lupa.png" />
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div id="items">
+				<div class="div-items">
+					<div class="item azul">
+						<div>
+							<span>245</span>
+						</div>
+						<div class="descricao">
+							<p>Quantidade de venda + cartões</p>
+						</div>
+						<div id="girl-money">
+							<img src="images/girl-money-bg.png" />
+						</div>
+					</div>
+					<div class="item verde">
+						<div>
+							<span>22</span>
+						</div>
+						<div class="descricao">
+							<p>Quantidade vendas cartão</p>
+						</div>
+						<div id="credit-card">
+							<img src="images/creditcard-bg.png" />
+						</div>
+					</div>
+					<div class="item roxo">
+						<div>
+							<span>26</span>
+						</div>
+						<div class="descricao">
+							<p>Total Vendas Dinheiro</p>
+						</div>
+						<div id="girl-info">
+							<img src="images/grils-info-bg.png" />
+						</div>
+					</div>
+				</div>
+				<div class="div-items">
+					<div class="item azul">
+						<div>
+							<span>R$ 872,22</span>
+						</div>
+						<div class="descricao">
+							<p>Total cartão + dinheiro</p>
+						</div>
+						<div id="girl-money">
+							<img src="images/girl-money-bg.png" />
+						</div>
+					</div>
+					<div class="item verde">
+						<div>
+							<span>R$ 22.222,20</span>
+						</div>
+						<div class="descricao">
+							<p>Total cartão</p>
+						</div>
+						<div id="credit-card">
+							<img src="images/creditcard-bg.png" />
+						</div>
+					</div>
+					<div class="item roxo">
+						<div>
+							<span>R$44.444,44</span>
+						</div>
+						<div class="descricao">
+							<p>Total Dinheiro</p>
+						</div>
+						<div id="girl-info">
+							<img src="images/grils-info-bg.png" />
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
+	
 	<script src="scripts/main.js"></script>
 </body>
 </html>

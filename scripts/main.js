@@ -10,9 +10,9 @@ myImage.onclick = () => {
 myButton.onclick = () => {
 	setLoveName();
 };
-*/
-setInterval(changeImage, 1000)
 
+setInterval(changeImage, 1000)
+*/
 const images = ["images/mai-dragon-in-love.gif", "images/flustered-anime.gif", "images/anime-love.gif"];
 let actualImage = 0;
 let imagesLength = images.length -1;
