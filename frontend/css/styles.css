@@ -1,0 +1,83 @@
+#main-girl{
+    width: 10%;
+    height: auto;
+}
+
+#task-message-input{
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    padding-left: 1%;
+    padding-right: 1%;
+    background-color: #779B9B;
+    color: #1B0C0C;
+    font-family: 'Roboto Mono', monospace;
+    width: 20%;
+}
+
+#task-message-input::placeholder{
+    color:#5B3838;
+    font-family: 'Roboto Mono', monospace;
+    
+}
+
+#main-body{
+    background-color: darkslategray;
+    font-family: 'Roboto Mono', monospace;
+}
+
+#to-do-container{
+    display: grid;
+    place-items: center;
+
+}
+
+#completed-container{
+    display: grid;
+    place-items: center;
+    gap: 10px;
+}
+
+#completed-container .task h2 {
+    text-decoration: line-through;
+    color: gray; /* Opcional: muda a cor para cinza */
+}
+
+.container {
+    display: grid;
+    place-items: center;
+}
+
+.button{
+    border-radius: 5px;
+    transition-duration: 0.4s;
+    font-size: 20px;
+    background-color: darkslategray
+}
+
+.button:hover{
+    color: white;
+}
+
+.button:hover img {
+    filter: brightness(0) saturate(100%) invert(50%) sepia(100%) saturate(500%) hue-rotate(180deg);
+}
+
+.task{
+    border: 1px solid #000;
+    margin-bottom: 10px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+    background-color: #1B0C0C;
+    border-radius: 10px;
+    
+}
+
+.task h2{
+    margin: 0;
+    font-size: 20px;
+    color: white;
+}
+
