@@ -7,7 +7,7 @@ from backend.classes.task import *
 from backend.db.session import get_db
 
 app = FastAPI()
-
+"""
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
@@ -15,12 +15,14 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"]
 )
+"""
 
 db = get_db()
 
-
+print(db)
 @app.get("/")
 async def root():
+    print('torrr')
     return{"message": "bolsonara é norte"}
 
 

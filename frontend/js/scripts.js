@@ -19,7 +19,7 @@ async function updateTask(taskId, newState, newMessage = null) {
 
 
     try {
-        const response = await fetch('http://127.0.0.1:8000/update_task', {
+        const response = await fetch('https://fastapi-example-2wln.onrender.com/update_task', {
             method: 'PUT',
             headers: {
                 "Content-Type": "application/json"
@@ -83,7 +83,7 @@ function deleteButtonFunction(button) {
         const taskElement = button.parentElement;
         const taskId = taskElement.getAttribute('id');
         try {
-            const reponse = await fetch(`http://127.0.0.1:8000/delete_task/${taskId}`, {
+            const reponse = await fetch(`https://fastapi-example-2wln.onrender.com/delete_task/${taskId}`, {
                 method: 'DELETE',
                 headers: {
                     'Content-Type': 'application/json'
@@ -196,7 +196,7 @@ updateButtonListener();
 
 async function loadTasks() {
     try {
-        const response = await fetch('http://127.0.0.1:8000/get_all_tasks');
+        const response = await fetch('https://fastapi-example-2wln.onrender.com/get_all_tasks');
 
         if (!response.ok) {
             throw new Error(`Erro: ${response.status} - ${response.statusText}`);
@@ -235,7 +235,7 @@ input.addEventListener("keydown", async function (event) {
 
         try {
             console.log('tentando')
-            const response = await fetch('http://127.0.0.1:8000/add_task', {
+            const response = await fetch('https://fastapi-example-2wln.onrender.com/add_task', {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json"
